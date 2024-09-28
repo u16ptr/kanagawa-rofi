@@ -1,3 +1,8 @@
+/*******************************************************************************
+ * ROFI Color theme
+ * User: u16ptr
+ ********************************************************************************/
+
 * {
   cBackground: #181616;
   cForeground: #c5c9c5;
@@ -13,8 +18,7 @@
 }
 
 configuration {
-  font: ["Agave Nerd Font Mono 10"];
-  show-icons: true;
+  font: "Agave Nerd Font Mono 10";
   display-drun: "Run:";
   display-run: "Run:";
 }
@@ -60,6 +64,22 @@ num-rows {
 textbox-sep {
   expand: false;
   str: "/";
+}
+
+message {
+  margin: 0 0 1 0;
+  border: 1;
+  border-color: @cGreen;
+}
+
+message,
+textbox {
+  background-color: transparent;
+  text-color: @cForeground;
+}
+
+textbox {
+  padding: 4;
 }
 
 listview {
