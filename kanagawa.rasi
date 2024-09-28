@@ -18,7 +18,7 @@
 }
 
 configuration {
-  font: "Agave Nerd Font Mono 10";
+  font: "BlexMono Nerd Font Mono 10";
   display-drun: "Run:";
   display-run: "Run:";
 }
@@ -96,16 +96,11 @@ scrollbar {
 
 element {
   padding: 2 4;
-  margin: 0 1 0 0;
 }
 
 element-icon {
   margin: 0 4 0 0;
   size: 12;
-}
-
-element-text {
-  padding: 2 0 0 0;
 }
 
 element.normal,
